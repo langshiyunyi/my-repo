@@ -1,0 +1,563 @@
+Package: ai-config-gui
+Version: 3.4.0-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: DaFei
+Installed-Size: 1000
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), libvterm0,libvterm-bin
+Filename: debs/ai-config-gui_3.4.0-1+debug_iphoneos-arm64e.deb
+Size: 287558
+MD5sum: d52aa60badfe7578fd821df197745bc6
+SHA1: 7172d946eb31caa3454ebb348163011fd1a37143
+SHA256: bc73ed1b389d974c76410be1d7a190118c1757ac519eb3730244649b909fa182
+Section: Ai工具
+Description: Claude Code / Codex API 配置管理工具 内置ai终端，双指缩放页面，需要先安装大飞源里面的ai，claude和codex然后执行一次“claude”和“codex”命令初始化文件，更新面板显示🤔
+Author: DaFei
+Icon: https://langshiyunyi.github.io/my-repo/icons/ai-config-gui.png
+Name: AI-Config-GUI
+
+Package: byg.iosios.net.appcardlite
+Version: 3.3.3-end
+Architecture: iphoneos-arm64e
+Maintainer: 搬运工
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 15.0)
+Filename: debs/byg.iosios.net.appcardlite_3.3.3-end_iphoneos-arm64e.deb
+Size: 411260
+MD5sum: ed25ce8784732f9e59d8725ad24cd4ed
+SHA1: e93c3356c2d60e6370bcba876e9ea989ff8b04a6
+SHA256: bb1f75af4932c24b07bbf52079202bfd54ed0767ab52ae62e62c2dd5d6e79696
+Section: 系统增强
+Description: 又一款分屏插件，小编个人不太喜欢这种分屏方式，但是也有不少人用户喜欢，效果如截图介绍所示，大家可以试试，觉得不好用的可以缷载！开启教程如下：看第一张截图照片手势介绍，右侧最下面往左侧最下面滑，就出来设置项了，然后自己研究怎么进行设置！感觉不太好用，喜欢的小伙们就使用吧！搬运工源一直在为用户着想，希望大家多多分享，更新才快！
+Author: Crassna
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: App Lecard分屏-Roothide
+Sponsor: 搬运工
+
+Package: byg.iosios.net.lynxtwo
+Version: 2.5.4
+Architecture: iphoneos-arm64e
+Maintainer: 搬运工
+Installed-Size: 2952
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: debs/byg.iosios.net.lynxtwo_2.5.4_iphoneos-arm64e.deb
+Size: 723576
+MD5sum: 14d5ee475bae9af34ff31765e34ee889
+SHA1: ca56c15a70a4ff974f873b72e68f3e371b1dcb04
+SHA256: f94c0e107cbdfb9906541451d264b22d3670cc75d06efe187c91ab9314685a45
+Section: 系统增强
+Description: Ultimate iDevice Customization for iOS 15+多功能系统调整，原价1.99刀！有能力的可以支持作者！插件功能非常的多，改时间格式，改状态栏，显示网速、carplay、改桌面图标等等，人称国外版电话助手！功能非常的多，强烈推荐使用！
+Author: MTAC
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: Lynx 2系统优化-Roothide
+Sponsor: 搬运工
+
+Package: byg.iosios.net.replaced
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 搬运工
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/byg.iosios.net.replaced_1.0_iphoneos-arm64e.deb
+Size: 4708
+MD5sum: 906af1d42fe1b6470a179c1698359d95
+SHA1: b610ead3e702751f0cb86ddc7881ff61b3f2f78d
+SHA256: b399b89e577b0be6654b721547d8bf45f191111751d75d8f00b54778aa37786c
+Section: 杂七杂八
+Description: Remove the notification that the P在“设置”的“关于”页面中删除有关“未知部件”或“部件和服务历史记录”的烦人通知。 非常有用的插件，自欺欺人！
+Author: 34306
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: Replaced删除系统提示-Roothide
+Sponsor: 搬运工
+
+Package: byg.iosios.net.underdock
+Version: 1.3
+Architecture: iphoneos-arm64e
+Maintainer: 搬运工
+Installed-Size: 680
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Conflicts: com.restiveconch.actionbar, com.udevs.dockx
+Filename: debs/byg.iosios.net.underdock_1.3_iphoneos-arm64e.deb
+Size: 76662
+MD5sum: 6237723810c79e549c7003e72459995a
+SHA1: 6bf8bb73cf61d3e7f053d65cb340ea8337b6c1de
+SHA256: d3bfea3fead935efe884f1d5f9c566278ce82da5fa99e0957db7d8bb88958ca7
+Section: 系统增强
+Description: 给原生键盘和第三方键盘增加复制、粘贴、换行、撤销等按钮，还不错的一款键盘增强插件，搬运工源已汉化，尽情享受搬运工源带来的越狱乐趣吧，搬运工源永久免费！越狱不倒，陪你到老！
+Author: P2KDev
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: UnderDock键盘增强-Rootless
+Sponsor: 搬运工
+
+Package: byg.iosios.net.zhuxiao
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: 搬运工
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.zhuxiao_0.0.3_iphoneos-arm64e.deb
+Size: 4684
+MD5sum: 629f8481d303cbb105819cd8c9b73738
+SHA1: e6d83349e63ef37d0df5d8906dead9ddf6890603
+SHA256: 143cc8b192e939370a6ed59cc09845ee559a993741400ff0a2e5cf3acf7e769d
+Section: 杂七杂八
+Description: 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。并不保证一定有效，无效请卸载！
+Author: Brend0n
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: 注销不锁屏-Roothide
+Sponsor: 搬运工
+
+Package: claude-code-roothide
+Version: 2.1.19-1
+Architecture: iphoneos-arm64e
+Maintainer: DaFei
+Installed-Size: 142528
+Depends: firmware (>= 14.0), zsh, ldid
+Filename: debs/claude-code-roothide-arm64e.deb
+Size: 28668356
+MD5sum: 1a5cb24b224286a7907ae729f5d05b6d
+SHA1: 26b36887bfbc6ad107234aff193aed21aa8db48f
+SHA256: b5919cdd9fef2fd4e179fe5609a4024d31b16897a8321b882540f7f1e37ff47b
+Section: Ai工具
+Description: Claude Code CLI for iOS 人工智能 在越狱iPhone 上本 地运行Claude Code终端执行claude-auth以开始认证 配置 终端执行 claude以开始使用 可以配置 DeepSeek模型API和第三方模型API
+Tag: purpose::console, role::developer
+Author: Anthropic (iOS package by Bryan) DaFei(修改优化)
+Icon: https://langshiyunyi.github.io/my-repo/icons/claude-code-roothide.jpg
+Name: Claude-Code-Roothide
+Sileodepiction: https://github.com/anthropics/claude-code
+
+Package: claude-code-rootless
+Version: 2.1.19-1
+Architecture: iphoneos-arm64
+Maintainer: DaFei
+Installed-Size: 142528
+Depends: firmware (>= 14.0), zsh, ldid
+Filename: debs/claude-code-rootless-arm64.deb
+Size: 28667056
+MD5sum: f2c9968d54f507cf82a5c02d1245f922
+SHA1: a786996e021d01d227dedf1ffd49c65946ccc4a0
+SHA256: 097ab52751fe5edfd269c956752c952de74ee61f143bba987c4954148e61507a
+Section: Ai工具
+Description: Claude Code CLI for iOS 人工智能 在越狱iPhone 上本 地运行Claude Code终端执行claude-auth以开始认证 配置 终端执行 claude以开始使用 可以配置 DeepSeek模型API和第三方模型API
+Tag: purpose::console, role::developer
+Author: Anthropic (iOS package by Bryan) DaFei(修改优化)
+Icon: https://langshiyunyi.github.io/my-repo/icons/claude-code-rootless.jpg
+Name: Claude-Code-Rootless
+Sileodepiction: https://github.com/anthropics/claude-code
+
+Package: codex-ios-roothide
+Version: 0.134.0-2
+Architecture: iphoneos-arm64e
+Maintainer: DaFei
+Depends: firmware (>= 14.0), nodejs22-ios-roothide (>= 22.12.0), ldid
+Filename: debs/codex-ios-roothide-arm64e.deb
+Size: 22389904
+MD5sum: f98bc5e9c3379d0db24e6cd082081962
+SHA1: 062c5b27bc4f75ba7c61109ffd23f563ef3d3700
+SHA256: 0d44619110e598a73d975bf977f9e9f67d5686ca21906320d979364b996856ef
+Section: Ai工具
+Priority: optional
+Description: OpenAI Codex CLI for iOS arm64 - AI coding agent in your terminal
+ OpenAI Codex CLI ported to iOS arm64 (aarch64-apple-ios).
+ An AI-powered coding agent that runs directly in your terminal.
+ .
+ Usage / 使用方法:
+ 1. Run 'codex' to enter interactive mode
+ 运行 codex 进入交互模式
+ 2. Or use 'codex exec "your prompt"' for non-interactive mode
+ 或用 codex exec "提示词" 进行非交互式调用
+ 3.运行"codex"后可在jb目录下的var/mobile/codex里面进行配置修改api接口
+ Features / 特性:
+ - Native arm64 binary, no emulation / 原生 arm64 二进制
+ - Works in NewTerm2/3 and SSH / 支持 NewTerm2/3 和 SSH 终端 只能接受responses端点的OpenAI 兼容的 API 密钥(二进制文件限制-不兼容的需要自己搭代理服务器翻译)。
+Icon: https://langshiyunyi.github.io/my-repo/icons/codex-ios-roothide.png
+Name: codex-ios-roothide
+
+Package: codex-ios-rootless
+Version: 0.134.0-2
+Architecture: iphoneos-arm64
+Maintainer: DaFei
+Depends: firmware (>= 14.0), nodejs22-ios-rootless (>= 22.12.0), ldid
+Filename: debs/codex-rootless-arm64.deb
+Size: 22391204
+MD5sum: 9e37e7d0f20de5cb6b2e07ac087a5f60
+SHA1: 5f762a40bdb6f7d88eb87c375a7a68183c1fcfa5
+SHA256: 046740db8db5cd3305a82ebccbab47497c0a89c288fa16887e72e4b03738a5f4
+Section: Ai工具
+Priority: optional
+Description: OpenAI Codex CLI for iOS arm64 - AI coding agent in your terminal
+ OpenAI Codex CLI ported to iOS arm64 (aarch64-apple-ios).
+ An AI-powered coding agent that runs directly in your terminal.
+ .
+ Usage / 使用方法:
+ 1. Run 'codex' to enter interactive mode
+ 运行 codex 进入交互模式
+ 2. Or use 'codex exec "your prompt"' for non-interactive mode
+ 或用 codex exec "提示词" 进行非交互式调用
+ 3.运行"codex"后可在jb目录下的var/mobile/codex里面进行配置修改api接口
+ Features / 特性:
+ - Native arm64 binary, no emulation / 原生 arm64 二进制
+ - Works in NewTerm2/3 and SSH / 支持 NewTerm2/3 和 SSH 终端 只能接受responses端点的OpenAI 兼容的 API 密钥(二进制文件限制-不兼容的需要自己搭代理服务器翻译)。
+Icon: https://langshiyunyi.github.io/my-repo/icons/codex-ios-rootless.png
+Name: codex-ios-rootless
+
+Package: com.Axs.cr4shed
+Version: 4.3.2
+Architecture: iphoneos-arm64e
+Maintainer: Axs
+Installed-Size: 2404
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11),  com.axs.libnotifications, cm90.crossoveripc
+Filename: debs/com.axs.cr4shed_4.3.2_iphoneos-arm64e.deb
+Size: 551234
+MD5sum: fd520e1b1205a632aaad32f0b18c6f06
+SHA1: 55260952768579f9ef647dc5cfa481c7ad99493d
+SHA256: cb715382c1f470bd6dc8ddfb01663c8ca13ddab1362f63886bb1d4dcdcaadf0e
+Section: Tweaks
+Description: 查看崩溃日志，提交给Ai，让它告诉你问题出在哪里。安装此插件前，必须先安装Ldid插件，默认源就有，否则闪退。
+Author: Muirey03
+Icon: https://axs66.github.io/pro/icon/cr4shed.png
+Name: Cr4shed 崩溃日志
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/cr4shed/js.json
+
+Package: com.Axs.libnotifications
+Version: 0.3-6-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: Axs
+Installed-Size: 376
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 8.0)
+Filename: debs/com.axs.libnotifications_0.3-6-1+debug_iphoneos-arm64e.deb
+Size: 21562
+MD5sum: 60c8a01ba4403c521837a09a35742067
+SHA1: eac83bc2fdc6a9445282538adac55b9aac41c144
+SHA256: 771b738a60147eaae0d177569a0f414913e10f4ea8bbd3e4e10c8d324fd646b2
+Section: Tweaks
+Priority: optional
+Homepage: https://axs66.github.io/pro
+Description: App notification library.
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
+Depiction: https://repo.138686.xyz
+Dev: cokepokes
+Icon: file:///var/jb/Library/IconRepo/phattrienn1.png
+Name: libnotifications
+Sponsor: Axs
+
+Package: com.Axs.liquidass
+Version: 7.alpha
+Architecture: iphoneos-arm64e
+Maintainer: dylv
+Installed-Size: 1092
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Conflicts: dylv.liquidass
+Filename: debs/com.axs.liquidass_7.alpha_iphoneos-arm64e.deb
+Size: 311758
+MD5sum: ab82f8dd00c7cfd6acaf740acf74efae
+SHA1: c4b6b7450006a8bdbff44ea4e638b61485557d54
+SHA256: 34a8e18230f577afda2307cc6aaeb085b71316a74fb10f440cbc1b5e1bbbd0c6
+Section: Tweaks
+Description: 让你的旧设备体验 iOS 26 Liquid Glass 玻璃特效
+Author: dylv
+Icon: https://axs66.github.io/pro/icon/liquidass.png
+Name: Liquidass iOS 26 玻璃特效
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/liquidass/js.json
+
+Package: com.creaturecoding.libcspreferences
+Version: 1.5.7
+Architecture: iphoneos-arm64e
+Maintainer: 搬运工
+Installed-Size: 2332
+Pre-Depends: rootless-compat(>= 0.9), firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Filename: debs/com.creaturecoding.libcspreferences_1.5.7_iphoneos-arm64e.deb
+Size: 976944
+MD5sum: 23cfc43dad99a5cc741778af70692428
+SHA1: f9c1739fa7e9a8c9fde2dc4adf217be42475fdec
+SHA256: fcd5f714c608148eccec9d845ecf954a5cac6d8448dea33ae208504f9197198f
+Section: 插件依赖
+Description: A Preference Library that doesn't suck!插件依赖-shullf
+Tag: compatible_min::iOS9
+Author: CreatureSurvive
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: libCSPreferences
+Sponsor: 搬运工
+
+Package: com.dafei.terminal
+Version: 2.0.0
+Architecture: iphoneos-arm64
+Maintainer: DaFei
+Installed-Size: 596
+Depends: firmware (>= 14.0), libvterm-bin (>= 0.1)
+Filename: debs/com.dafei.terminal_2.0.0_iphoneos-arm64.deb
+Size: 181364
+MD5sum: 34bd89f1a7b574644651afa40637d93e
+SHA1: f4eadd6c111e568c5f747d048e9e0fee437719df
+SHA256: e4c1870c2bd81f70260a227d3be0db96cec8443bb172d6e87a1fdd47674d39a0
+Section: Terminal Support
+Description: 现代化 iOS 终端，支持多标签、主题、中文/emoji、复制粘贴、双指缩放和本地 AI 辅助。更新了一些功能
+ A modern iOS terminal emulator with tabs, themes, CJK/emoji rendering,
+ copy/paste, pinch-to-zoom, scrollback, and local AI context helpers.
+Author: DaFei
+Icon: https://langshiyunyi.github.io/my-repo/icons/dfterminal.png
+Name: DFTerminal
+
+Package: com.daodao.snapper3
+Version: 1.0k
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, xyz.cypwn.snapper3
+Filename: debs/com.daodao.snapper3_1.0k_iphoneos-arm64e.deb
+Size: 919884
+MD5sum: 1079677bc3d6493694699ab6bdf3e20c
+SHA1: e182063a95bf8304ae7273bc02c323e9ead920f0
+SHA256: 46e0df06f31d7c906787352e6492225a518f648732c4438d50ff1c9746016c11
+Section: 嗨-工具
+Description: 便捷截屏3，已由CBZ破解。已修正OCR，源内可安装中文包。
+Author: Jonathan Winger-lang
+Name: Snapper 3(roothide)
+
+Package: com.dynamicisland.tweak
+Version: 1.2.0-1+debug
+Architecture: iphoneos-arm64
+Maintainer: DaFei
+Installed-Size: 760
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.dynamicisland.tweak_1.2.0-1+debug_iphoneos-arm64.deb
+Size: 88532
+MD5sum: afeb5403bf990c4be4dcc24eac6dc43f
+SHA1: 31518eaa0f0b871a72300f87c0fac4e1f9ba86c4
+SHA256: 61e11ad19075e9e580cdfa25afb32abff597f34d5354b42bbd2f04836cc5c9bf
+Section: Tweaks
+Description: Dynamic Island style unified music and notification overlay
+ 动态岛屿风格的统一音乐和通知叠加
+ ios15系统，灵动岛(画的假岛)ios14不支持没有对应的框架，测试环境13pm ios15.4.1
+Author: DaFei
+Icon: https://langshiyunyi.github.io/my-repo/icons/dynamicisland-tweak.png
+Name: DynamicIsland Tweak
+
+Package: com.ethanarbuckle.objsee-framework-DaFei
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: DaFei
+Installed-Size: 4392
+Depends: firmware (>= 14.0)
+Filename: debs/com.ethanarbuckle.objsee-framework_0.0.2_iphoneos-arm64.deb
+Size: 612444
+MD5sum: b6d8fc4a7d4ffefd937d9a7d97cf1633
+SHA1: 50e109824aaefb582fa2c9903db1d85647724439
+SHA256: d28a80d19a9381e5997ac93a6287b062fd5dc0638930b5cf4f1e2d244cb79715
+Section: 逆向工具
+Description: objc_msgSend tracing framework (大飞修改版)
+ objsee - 运行时 ObjC 方法追踪工具
+ Hook all objc_msgSend calls in any app, trace every method invocation in real time.
+ .
+ 原作者: Ethan Arbuckle | iOS 移植: Lessica | 修改适配: 大飞
+ .
+ 用法示例 / Usage:
+ objsee --help                     查看全部选项
+ objsee -c "UIView" com.apple.springboard  按类名过滤
+ objsee -m "viewDidLoad" com.xxx.app       按方法名过滤
+ objsee -C "__NSCF*" com.xxx.app           排除系统类
+ objsee -T com.xxx.app              TUI 交互模式
+ objsee -A0 com.xxx.app             只显示调用链，不显示参数
+ objsee -A3 com.xxx.app             显示完整参数详情
+ .
+ 功能特性:
+ - 无需注入 tweak，通过 task_for_pid 直接附加目标进程
+ - 支持类名/方法名 glob 通配符过滤，含排除模式 (-C)
+ - TUI 交互模式，支持上下翻页浏览
+ - 多级参数显示 (-A0 ~ -A3)
+ - 彩色输出 + 调用深度缩进，调用链一目了然
+ - 支持 arm64 / arm64e 设备
+ 原项目: https://github.com/Lessica/objsee-ios
+Author: Ethan Arbuckle, Lessica, 大飞
+Icon: https://langshiyunyi.github.io/my-repo/icons/objseerootless.jpg
+Name: objsee(rootless)
+
+Package: com.hoangdus.speedster
+Version: 2.1.1
+Architecture: iphoneos-arm64e
+Maintainer: Hoangdus
+Installed-Size: 380
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=13.0)
+Filename: debs/com.hoangdus.speedster_2.1.1_iphoneos-arm64e.deb
+Size: 46778
+MD5sum: c9f1fb414fb52a989c84b233b9704420
+SHA1: 80148820bf5b285ddbdf5f94fe246d74b039d5b8
+SHA256: fa7ff3f8ec740ba6171324f6fbd6a6d5762326b4bb3d94d973dae6a082af1b99
+Section: Tweaks
+Description: Faster iOS animation.
+Author: Hoangdus
+Name: Speedster
+
+Package: com.local.repokit
+Version: 0.1.0-7+debug
+Architecture: iphoneos-arm64
+Maintainer: DaFei
+Installed-Size: 584
+Depends: firmware (>= 15.0), dpkg, dpkg-dev, gzip, zstd, git, openssh-client
+Filename: debs/repokit-rootless-arm64.deb
+Size: 135188
+MD5sum: eed0a556e9b60c0f1ae49b92b8d43f97
+SHA1: 74891a63c55c27e98c2184926d61a99118a284a1
+SHA256: ef2ecc5b81682182d393622e4e02f680fad0287dc8430ceaa865bd4390e19ccc
+Section: Utilities
+Description: Local jailbreak repository manager with package CRUD, index building, and GitHub publishing.
+ 本地越狱仓库管理器，支持包的增删改查、索引构建以及GitHub发布功能。
+Author: DaFei
+Icon: https://langshiyunyi.github.io/my-repo/icons/repokit.png
+Name: RepoKit
+
+Package: com.spark.snowboard
+Version: 1.5.37-Beta4-rootless
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Installed-Size: 3268
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.spark.snowboard_1.5.37-Beta4-rootless_iphoneos-arm64e.deb
+Size: 1130112
+MD5sum: aac5fd51a6e7c5f39e50763b12d69c47
+SHA1: b7a53a94d6bd785e304db9590d9c26b5b91d7f30
+SHA256: ccc8a01774f4a9f06eb0026a6f6c0e8fca174e36628fcad63fd45510e7a1bd59
+Section: 主题平台
+Description: 滑雪板主题引擎
+Author: Spark & Dennis D. Bednarz
+Icon: https://sini921.github.io/repo/sileodepiction/icon/snowboard.png
+Name: SnowBoard(roothide)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/snowboard/js.json
+
+Package: com.sunshinesong.split-view-pro
+Version: 1.3.7
+Architecture: iphoneos-arm64e
+Maintainer: sunshinesong
+Installed-Size: 5624
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: debs/com.sunshinesong.split-view-pro_1.3.7_iphoneos-arm64e.deb
+Size: 4383698
+MD5sum: 7f19912ecde4ebf1f7d0b06a672cb40a
+SHA1: 596ab43010798f5b8a806d909a9d3eb3cab15e4d
+SHA256: 126110aded940a0debabe5405cca899177504e2555ef02e4ba1b869bc981ec90
+Section: 越狱插件
+Description: 分屏，不必太复杂，一切从简即可。
+Author: sunshinesong
+Icon: https://sini921.github.io/repo/sileodepiction/icon/svp.png
+Name: split-view-pro(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/svp/js.json
+Ts: sp-sss
+
+Package: com.sunshinesong.split-view-pro-helper
+Version: 999.1
+Architecture: iphoneos-arm64e
+Maintainer: 搬运工
+Installed-Size: 13792
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: debs/com.sunshinesong.split-view-pro-helper_999.1_iphoneos-arm64e.deb
+Size: 2360
+MD5sum: db38b194eb57b6c333a881d617bd71bc
+SHA1: 139769cfc96b6f0cdc00bce056c94b3812b91763
+SHA256: 33fbaff5310978227c87a0667b9e5dd801bc2dcc2900db6f62c683bddd697ff7
+Section: 插件依赖
+Description: 据说这玩意儿能解决新版split分屏安全模式问题，小编也不知道真假，因为小编没安全模式，如果有遇到此问题的用户可以试试，搬运工源一直都在为用户考虑，奈何还有很多人在喷，真的有必要么！
+Author: sunshinesong
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: split-view-pro helper（SVP）依赖
+Sponsor: 搬运工
+
+Package: nodejs22-ios-roothide
+Version: 22.12.0-27
+Architecture: iphoneos-arm64e
+Maintainer: DaFei
+Depends: firmware (>= 14.0), ldid
+Filename: debs/nodejs22-ios-roothide-arm64e.deb
+Size: 23862040
+MD5sum: ae2c2133f74ab01dc2a839fd05e65f5b
+SHA1: 8c07447a2e6f6cdda1e12e284955323c22769540
+SHA256: 41443d63e2274a297b8293986f3f3ee0be2a38a34f3d728e3a056e4d7fbf1b27
+Section: Development
+Priority: optional
+Description: Node.js 22.12.0 for iOS arm64 (side-by-side as node22)
+ Node.js v22.12.0 runtime compiled for iOS arm64.
+ Installs as node22/npm22/npx22 to avoid conflicts with other Node versions.
+ Includes bundled npm 10.9.0 and pre-signed with iOS entitlements.
+ .
+ Node.js 22.12.0 iOS arm64 运行时。
+ 以 node22/npm22/npx22 安装，不与其他 Node 版本冲突。
+ 内含 npm 10.9.0.
+Icon: https://langshiyunyi.github.io/my-repo/icons/nodejs22-ios-roothide.jpg
+Name: nodejs22-ios-roothide
+
+Package: nodejs22-ios-rootless
+Version: 22.12.0-27
+Architecture: iphoneos-arm64
+Maintainer: DaFei
+Depends: firmware (>= 14.0), ldid
+Filename: debs/nodejs22-ios-rootless-arm64.deb
+Size: 23861784
+MD5sum: 624ef5dc3b8b725b32bc54bb60be733a
+SHA1: 3304a9d159d494101e129ebcf3708d711c41cdb8
+SHA256: 211c623e1d55d2f8dc4b483e2fe40a750a64340f9272406d50ddbe89296f32e8
+Section: Development
+Priority: optional
+Description: Node.js 22.12.0 for iOS arm64 (side-by-side as node22)
+ Node.js v22.12.0 runtime compiled for iOS arm64.
+ Installs as node22/npm22/npx22 to avoid conflicts with other Node versions.
+ Includes bundled npm 10.9.0 and pre-signed with iOS entitlements.
+ .
+ Node.js 22.12.0 iOS arm64 运行时。
+ 以 node22/npm22/npx22 安装，不与其他 Node 版本冲突。
+ 内含 npm 10.9.0.
+Icon: https://langshiyunyi.github.io/my-repo/icons/nodejs22-ios-rootless.jpg
+Name: nodejs22-ios-rootless
+
+Package: ws.DaFei.newterm3
+Version: 3.1
+Architecture: iphoneos-arm64e
+Maintainer: DaFei HASHBANG Productions <support@hbang.ws>
+Installed-Size: 25940
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2
+Replaces: ws.hbang.newterm, ws.hbang.newterm2
+Filename: debs/ws.DaFei.newterm3_3.1_iphoneos-arm64e.deb
+Size: 5305776
+MD5sum: 63c06b1e816f10d4fb5e05768ea542c5
+SHA1: d6e9b5753669224ec1e9eeb4406c8ac815294efa
+SHA256: f5168b309b566517f9d475923bc14c6ca7fc5615da0b3b985fdc8a7a61119520
+Section: Terminal Support
+Description: Powerful terminal app for iOS,在源码的基础上添加了，双指缩放，中文显示，多快捷键输入
+Tag: compatible_min::ios14.0
+Author: DaFei HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/newterm-beta
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Name: NewTerm 3 Beta(DaFei修改版)
+Support: https://hashbang.productions/support/
+
+Package: xyz.cypwn.aimpro
+Version: 1.1.3k
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common (>= 2.0), com.spark.libsparkcolourpicker
+Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aim, com.icraze.nexus
+Filename: debs/xyz.cypwn.aimpro_1.1.3k_iphoneos-arm64e.deb
+Size: 5550708
+MD5sum: d0e72cfaf4452f1b109646c62820b15b
+SHA1: 936bdd67781e22d8fe3ada2577f6e33702c544de
+SHA256: 112e36db1afad4dc2452aea5991e10a79987e6b0f7a6b194452ba25538a58959
+Section: Tweaks
+Description: iOS 16 Style Time & Date Lockscreen
+Author: alimaulana
+Depiction: https://repo.cypwn.xyz/depiction/3301
+Icon: https://repo.cypwn.xyz/packages/AIMPro-Rootless/icon.png
+Name: AIM Pro
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3301
+
