@@ -433,6 +433,23 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/snowboard.png
 Name: SnowBoard(roothide)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/snowboard/js.json
 
+Package: com.squidforce.disablepastealert16
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce
+Installed-Size: 168
+Filename: debs/com.squidforce.disablepastealert16_1.0_iphoneos-arm64e.deb
+Size: 3916
+MD5sum: 3c7e52ce811b27d4d6165f8b63334988
+SHA1: c6fad0d5f8c2af1fca1ced728f716b0ef83b4bca
+SHA256: 5e87f94f5a09a83ac5c91fb5ce6a290a8c98e0f1673de1ff4a8957ad8cea51e3
+Section: Tweaks
+Description: 1. 禁用iOS16+粘贴警告弹窗，并自动允许
+ 2. 禁用粘贴提醒
+ * 如只需要禁用警告弹窗，可以降级安装版本0.0.1
+Author: SquidForce
+Name: 禁用iOS16+粘贴警告弹窗和粘贴提醒 - DisablePasteAlert16
+
 Package: com.sunshinesong.split-view-pro
 Version: 1.3.7
 Architecture: iphoneos-arm64e
@@ -517,6 +534,22 @@ Description: Node.js 22.12.0 for iOS arm64 (side-by-side as node22)
  内含 npm 10.9.0.
 Icon: https://langshiyunyi.github.io/my-repo/icons/nodejs22-ios-rootless.jpg
 Name: nodejs22-ios-rootless
+
+Package: nsurlqadlog
+Version: 1.3.3
+Architecture: iphoneos-arm64e
+Maintainer: z
+Installed-Size: 336
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/nsurlqadlog_1.3.3_iphoneos-arm64e.deb
+Size: 51694
+MD5sum: 016f3f0965da54a0ea97659c4675ce4c
+SHA1: 392e637a557d1d57a982a12b6bf7ce7f375e60b2
+SHA256: 7fb10cc498245435afa8d64466a06f15e1284b744dc2f168c3da2995b83d3aeb
+Section: Tweaks
+Description: NSURL去广告,默认去淘宝开屏、威锋、闲鱼。其它应用可巨魔注入，三指长按打开设置页面
+Author: z
+Name: NSURL去广告-roothide
 
 Package: ws.DaFei.newterm3
 Version: 3.1
