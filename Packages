@@ -156,14 +156,15 @@ Installed-Size: 128
 Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate
 Filename: debs/cn.llld.biaoji_1.3_iphoneos-arm64e.deb
-Size: 27976
-MD5sum: 80faec4ccef1e4065695c5e055f446c9
-SHA1: afad370fc673c6d18d7bfe935ace6db55427326e
-SHA256: 81cc2df3d48b68243ae4e2103eb41094b384543bbf5df3db97258a893b101497
+Size: 28124
+MD5sum: 274358ecbb105395779d165fefb7c0de
+SHA1: 72c0e5c96465998d2dc51f893e0a439c3ae0552a
+SHA256: 692eb6b4454b0a47a09276f7f84b0c265c00a653795c1f944f5bf49486e01df7
 Section: rootless插件
 Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
  .
  (Repackaged on Wed, 12 Aug 2026 13:03:46 +0800 by dpkg-repack.)
+Name: Snapper画图标记
 
 Package: codex-ios-roothide
 Version: 0.134.0-2
@@ -240,29 +241,6 @@ Icon: https://axs66.github.io/pro/icon/cr4shed.png
 Name: Cr4shed 崩溃日志
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/cr4shed/js.json
 
-Package: com.Axs.libnotifications
-Version: 0.3-6-1+debug
-Architecture: iphoneos-arm64e
-Maintainer: Axs
-Installed-Size: 376
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 8.0)
-Filename: debs/com.axs.libnotifications_0.3-6-1+debug_iphoneos-arm64e.deb
-Size: 21562
-MD5sum: 60c8a01ba4403c521837a09a35742067
-SHA1: eac83bc2fdc6a9445282538adac55b9aac41c144
-SHA256: 771b738a60147eaae0d177569a0f414913e10f4ea8bbd3e4e10c8d324fd646b2
-Section: Tweaks
-Priority: optional
-Homepage: https://axs66.github.io/pro
-Description: App notification library.
-Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
-Depiction: https://repo.138686.xyz
-Dev: cokepokes
-Icon: file:///var/jb/Library/IconRepo/phattrienn1.png
-Name: libnotifications
-Sponsor: Axs
-
 Package: com.Axs.liquidass
 Version: 7.alpha
 Architecture: iphoneos-arm64e
@@ -282,25 +260,6 @@ Author: dylv
 Icon: https://axs66.github.io/pro/icon/liquidass.png
 Name: Liquidass iOS 26 玻璃特效
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/liquidass/js.json
-
-Package: com.creaturecoding.libcspreferences
-Version: 1.5.7
-Architecture: iphoneos-arm64e
-Maintainer: 搬运工
-Installed-Size: 2332
-Pre-Depends: rootless-compat(>= 0.9), firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
-Filename: debs/com.creaturecoding.libcspreferences_1.5.7_iphoneos-arm64e.deb
-Size: 976944
-MD5sum: 23cfc43dad99a5cc741778af70692428
-SHA1: f9c1739fa7e9a8c9fde2dc4adf217be42475fdec
-SHA256: fcd5f714c608148eccec9d845ecf954a5cac6d8448dea33ae208504f9197198f
-Section: 插件依赖
-Description: A Preference Library that doesn't suck!插件依赖-shullf
-Tag: compatible_min::iOS9
-Author: CreatureSurvive
-Icon: https://chinesebuilding.club/pic/cydia.png
-Name: libCSPreferences
-Sponsor: 搬运工
 
 Package: com.dafei.terminal
 Version: 2.0.0
@@ -396,6 +355,23 @@ Description: Faster iOS animation.
 Author: Hoangdus
 Name: Speedster
 
+Package: com.iosdump.shellx
+Version: 1.2.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 852
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.iosdump.shellx_1.2.1_iphoneos-arm64e.deb
+Size: 144552
+MD5sum: 6697a524426f5ce3ad805dcda4c52d77
+SHA1: 5492e69a097ac16605f8fef76125469b3a6a0f1f
+SHA256: 2669bfdc91d895491169f7faf2836af88e6723d04cde6fd824f71ccbdc49a374
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+ .
+ (Repackaged on Wed, 12 Aug 2026 13:17:10 +0800 by dpkg-repack.)
+Name: 截图套壳
+
 Package: com.jontelang.snapper3free
 Version: 1.2.1
 Architecture: iphoneos-arm64e
@@ -405,14 +381,15 @@ Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.jontelang.snapper3
 Filename: debs/com.jontelang.snapper3free_1.2.1_iphoneos-arm64e.deb
-Size: 1029960
-MD5sum: d090ba16f2fffb9cf5914541fe60fd5e
-SHA1: 6c4076f7631393b7c6c97769357f34eb1318743e
-SHA256: cf70a56863e172ff3efd829d19950ecc7bd08312d9fb3ce54b409c50a8a0564b
+Size: 1029832
+MD5sum: 80f5c245f513de1dec9a9a85de6ccdab
+SHA1: 7fa0604dadb5578851fa0dedf77d67856d9e0892
+SHA256: bb6fd2f008c26982a671b8c199d649b408baadc0116bcc787a02a732ae3bb295
 Section: Tweaks
 Description: Pin screenshots on the screen. Snapper 3 是一款区域截图插件，最新破解版
  .
  (Repackaged on Wed, 12 Aug 2026 12:59:40 +0800 by dpkg-repack.)
+Name: Snapper 3 破解版
 
 Package: com.lclrc.hammerit
 Version: 1.7.1
@@ -422,14 +399,32 @@ Installed-Size: 3808
 Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
 Filename: debs/com.lclrc.hammerit_1.7.1_iphoneos-arm64e.deb
-Size: 964144
-MD5sum: bb51e54d95bcb80f0f459c5273a9bb70
-SHA1: b7b27bca06df6a9ab32e05de7c30c79c870fe300
-SHA256: fe4ff5d26b49e1a783bae7baaef6b15cc642f347e57d1daf807300bebb33301c
+Size: 963852
+MD5sum: 751f654efa3dd7158233075893bf8412
+SHA1: 7f5990d199d81c52a87d9d8385e80a8a117484f2
+SHA256: 6e3928536a39b86acbf4bc28c6e442f46d7504745d3789b57d43d310826df595
 Section: Tweaks
 Description: Control your text or translate as you wish.
  .
  (Repackaged on Wed, 12 Aug 2026 13:00:27 +0800 by dpkg-repack.)
+Name: Hammerit
+
+Package: com.lclrc.squidgesture
+Version: 1.3.7
+Architecture: iphoneos-arm64e
+Maintainer: lclrc(SquidForce)
+Installed-Size: 1512
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), com.opa334.altlist
+Filename: debs/com.lclrc.squidgesture_1.3.7_iphoneos-arm64e.deb
+Size: 383152
+MD5sum: d413bf22bb321a081f4eaabecef105d9
+SHA1: 91553e868f698410015e4d20e6c2fb8af60e825c
+SHA256: a3630e774b0c9320c28fbaac4cdcefa99f7382f4abf8f6820298dedf0a7edb30
+Section: Tweaks
+Description: Gestures
+ .
+ (Repackaged on Wed, 12 Aug 2026 13:17:46 +0800 by dpkg-repack.)
+Name: Squidgesture鱿鱼手势
 
 Package: com.liuermei.snapper3doubao
 Version: 1.2.1
@@ -439,15 +434,16 @@ Installed-Size: 420
 Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
 Filename: debs/com.liuermei.snapper3doubao_1.2.1_iphoneos-arm64e.deb
-Size: 66592
-MD5sum: 02cf64316b30b1bf7ff1f494ea5e9e8f
-SHA1: ca17b9b75ca2b4c91f5e23f8a952fb0ce216ce66
-SHA256: 4a52224b2238670a6f73dfd6e8c77eb2543f9b518929115b027bda081b56bd28
+Size: 66752
+MD5sum: cdd18fb87241fc0524924ce61f3ff85e
+SHA1: 5b14c10160f9a05c81e000cb933bad71e137ced0
+SHA256: fbc09f37e398b277af1f446d5413f12d09c8da419290a570e94914c6383d4225
 Section: Tweaks
 Homepage: https://chatgpt.com
 Description: Snapper 3 插件：截图复制到剪贴板并打开豆包/DeepSeek/Gemini/ChatGPT。已移除易导致安全模式的强制注入；请在输入框长按粘贴。
  .
  (Repackaged on Wed, 12 Aug 2026 13:01:23 +0800 by dpkg-repack.)
+Name: Snapper 3 Ai智能跳转
 
 Package: com.local.repokit
 Version: 0.1.0-7+debug
@@ -475,14 +471,32 @@ Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.bigshotsnapper3plugin
 Filename: debs/com.sini.bigshot_1.1_iphoneos-arm64e.deb
-Size: 19748
-MD5sum: 591155033b057a40b32f85c0e8934cbd
-SHA1: 5d6ba6500938913d7d22b673c29e84447f529586
-SHA256: a0df85fe2453bf923c3972609d1ae9752841a0267fe86a20d3688077ae7a3063
+Size: 19872
+MD5sum: 4aaaa3c796d69ae664fe65dea5673e8c
+SHA1: 2b406de270fab5aa50a32a900f7b43709292a1fc
+SHA256: 70bd44be316348906116bb0a37eef10aae3045f767e620cc7f4a24aed5e2e1e0
 Section: Tweaks
 Description: 安装以后呼出Snapper3(仅支持正版)会有一个长截图按钮。也支持通过控制中心添加BigShot模块使用。
  .
  (Repackaged on Wed, 12 Aug 2026 13:00:06 +0800 by dpkg-repack.)
+Name: Snapper 3 长截图
+
+Package: com.sini921.atria
+Version: 1.4.1-8
+Architecture: iphoneos-arm64e
+Maintainer: ren7995 & SINI
+Installed-Size: 992
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Filename: debs/com.sini921.atria_1.4.1-8_iphoneos-arm64e.deb
+Size: 216236
+MD5sum: 515daedb3521a46b3d22cfa518c4a851
+SHA1: 7bb3bd05b2a87569b4bff9cf3a483915ad1b5f4f
+SHA256: b9b12278f754015a9c43ffdf0627ce30a299054cdfdb467e702be4f4ef6a2571
+Section: 越狱插件
+Description: 适用于iOS 13-16的主屏幕布局编辑器，基于开源修改编译的中文版，去掉了Alderis Color Picker依赖，编译支持roothide。
+ .
+ (Repackaged on Wed, 12 Aug 2026 13:16:49 +0800 by dpkg-repack.)
+Name: Atria桌面布局调整
 
 Package: com.spark.snowboard
 Version: 1.5.37-Beta4-rootless
