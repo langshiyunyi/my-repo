@@ -658,6 +658,29 @@ Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
 Name: NewTerm 3 Beta(DaFei修改版)
 Support: https://hashbang.productions/support/
 
+Package: ws.hbang.newterm3
+Version: 3.1
+Architecture: iphoneos-arm64
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 25940
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2
+Replaces: ws.hbang.newterm, ws.hbang.newterm2
+Filename: debs/NewTerm 3(DaFei)版rootless.deb
+Size: 5307380
+MD5sum: 544f773ab6ea8f67960a5d20dfe329b4
+SHA1: 52bd392bc815d6b2435404d6ed187f9c246666a4
+SHA256: 6da3bf44791bc01266ef0253a67b99b270ae1cb78ae34c5a94b6607a98482ca3
+Section: Terminal Support
+Description: Powerful terminal app for iOS，rootless测试，增加双指缩放，快捷键输入，中文换行问题
+Tag: compatible_min::ios14.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/newterm-beta
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Name: NewTerm 3 Beta(DaFei修改版)
+Support: https://hashbang.productions/support/
+
 Package: xyz.cypwn.aimpro
 Version: 1.1.3k
 Architecture: iphoneos-arm64e
