@@ -261,6 +261,26 @@ Icon: https://axs66.github.io/pro/icon/liquidass.png
 Name: Liquidass iOS 26 玻璃特效
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/liquidass/js.json
 
+Package: com.axs.touchtrail
+Version: 5.2.0-56
+Architecture: iphoneos-arm64e
+Maintainer: Axs
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.axs.touchtrail.deb
+Size: 45860
+MD5sum: dde25ec4a0e1d131bd13552358ed37af
+SHA1: 3fa51943cd0eed64c7fb29213c170900e9ef348b
+SHA256: 4c07f7ae29ef66bb7cd17fcff2320e2574df157c9e70a4ad29379f4e28385169
+Section: Axs-Tweaks
+Description: 全局触摸轨迹显示插件：在屏幕任意位置触摸时，实时显示手指触点和拖尾残影动画。
+ * 1.适配录屏、演示、教程录制等场景，可设置仅录屏时显示。
+ * 2.支持多指模式，参数可调（大小、透明度、动画时长等）。
+ * 3.支持三种触点样式（颜色/图片/表情）。
+Author: Axs
+Name: TouchTrail
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/touchtrail/js.json
+
 Package: com.dafei.terminal
 Version: 2.0.0
 Architecture: iphoneos-arm64
@@ -462,6 +482,38 @@ Description: Local jailbreak repository manager with package CRUD, index buildin
 Author: DaFei
 Icon: https://langshiyunyi.github.io/my-repo/icons/repokit.png
 Name: RepoKit
+
+Package: com.nan.deb
+Version: 0.3.0
+Architecture: iphoneos-arm64e
+Maintainer: zhaonan
+Depends: coreutils, sed, findutils
+Filename: debs/com.nan.deb.deb
+Size: 4232
+MD5sum: 55833f04802ff01561385320f1c73753
+SHA1: 23fd09f025580709db1e4db1eff16f8001649257
+SHA256: dffa9bf68834e43199dfbf4595ad01e992c854be23f67b1134d407335104d5e5
+Section: System
+Description: deb 工具，普通解压，普通打包，批量解压，批量打包，提取已安装软件包，deb 信息查看
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+Name: deb
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.deb/js.json
+
+Package: com.ngkhoi.26anim
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: ngkhoi
+Depends: mobilesubstrate
+Filename: debs/com.ngkhoi.26anim.deb
+Size: 58184
+MD5sum: af593753431ed13623d7db5386d07f1f
+SHA1: 3643e87261d0f0c275baed176944e17703bc8611
+SHA256: 95201879158a0d6beae9328a193096d0f9164b7060077c12fa608a66000031b2
+Section: Tweaks
+Description: my attempt to replicate iOS 26 app opening/closing animation.
+Author: ngkhoi
+Name: 26Anim
 
 Package: com.sini.bigshot
 Version: 1.1
