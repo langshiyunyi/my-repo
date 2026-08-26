@@ -6,18 +6,18 @@ Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: 大飞个人越狱源
-Date: Wed, 26 Aug 2026 14:23:39 UTC
+Date: Wed, 26 Aug 2026 14:28:33 UTC
 
 MD5Sum:
  b675cbc2ec64975d1f294243d9f52683 32055 Packages
- dff7f8cb1a6088483804f27fe4979ddc 12232 Packages.gz
+ 0e754b0345adf289541d6ec114b090d9 12232 Packages.gz
  0604a6b391d493365633377e9c0c42d9 12666 Packages.zst
  efbecf262d6b5a493521b9e50697ec1d 11193 Packages.bz2
  06a7307476f16902a35f0612c9a63009 10920 Packages.xz
 
 SHA256:
  c6388cb454d5c4fa68133a4a7549b59c0d77d24f7d6ae3fc8524e2b0be7d96a4 32055 Packages
- 4ee7f34b4ad7e460defde4a4964818447b89f35326afaf54e2a788e1b428bb7c 12232 Packages.gz
+ a81709d4bfb8cd83c9e6decac54847eebcd002416cbbe9d8e6c4981c247c882d 12232 Packages.gz
  e7fdde0190226eed074f12c2bd42c2cc3a03553d4da572a04b6eecd3dd2a4572 12666 Packages.zst
  21b1e646d3c55fe151ecc6f4928e5f4267e7a3c25c0a7be0d3f250317ca587db 11193 Packages.bz2
  c178df3d0c9f0c204ce5ff724bd4284fe3d68426af9759687bb46154722fb54a 10920 Packages.xz
